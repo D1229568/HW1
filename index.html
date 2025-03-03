@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+
+        .header{
+            background-color: #53212b;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 10vh;
+
+        }
+
+        .header img.riot{
+            width: 10%;
+            padding-left: 50px;
+        }
+
+        .header img.logo{
+            width: 7%;
+            padding-top: 10px;
+            padding-right: 50px;
+        }
+
+        .content{
+            background-image: url("img/background.PNG");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: calc(100vh - 10vh);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content .left {
+            float: left;
+            width: 40%;
+            margin-right: 10%;
+
+        }
+        .content .left img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            margin-left: 10%;
+
+        }
+
+        .content .right {
+            width: 60%;
+            float: right;
+            margin: -10px;
+            height: 100%;
+
+
+        }
+
+        .content .right img {
+            object-fit: cover;
+            width: 77%;
+            margin-top:8%;
+        }
+
+        .content .right .text{
+            border:1px;
+            background-color: rgba(255, 189, 89, 0.2);
+            width: 110%;
+            text-align: center;
+            padding : 10px;
+            padding-bottom: 50px;
+            margin-left: -200px;
+        }
+
+        .content .right h1{
+            clear: both;
+            color: #ffbd59;
+            font-family: "DIN Alternate", Arial, sans-serif;
+            font-size: 340%;
+        }
+
+        .content .right p{
+            color: #a6a6a6;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+            font-size: 230%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .content .right p.one{
+            margin-top: 0px;
+        }
+
+        div.button{
+            margin-top:20px;
+        }
+
+        .outer {
+            display: inline-block;
+            border: 1px solid #fff;
+            background-color: transparent;
+            padding: 5px;
+        }
+
+        .outer2 {
+            display: inline-block;
+            border: 1px solid #fff;
+            background-color: transparent;
+            padding: 5px;
+            margin-right: 300px;
+            margin-left: -20px;
+        }
+
+        .inner {
+            background-color: #fd4556;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+            text-align: center;
+            cursor: pointer;
+            padding: 20px 60px;
+        }
+
+        .inner a{
+            text-decoration: none;
+            color : black;
+        }
+
+        .inner:hover {
+            background-color: white;
+            color : black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <div class = "header">
+            <a href = "https://www.riotgames.com/en">
+                <img src="img/riot.PNG" class = "riot" alt = "riot">
+            </a>
+            <img src="img/logo.PNG" class = "logo" alt = "logo">
+        </div>
+
+        <div class = "content">
+
+            <div class = "left">
+                <img src = "img/sage.png" alt = "background" height = "2500">
+            </div>
+
+            <div class = "right">
+                <div class = "photo">
+                    <img src = "img/valorant.png" alt = "valorant"  >
+                </div>
+
+                <div class = "text">
+                    <h1>SYSTEM ERROR: OPERATOR STOLEN!</h1>
+                    <p class = "one">Looks like Sage is busy reviving the servers...</p>
+                    <p>Please be patient, maintenance is in progress.</p>
+                    <p>Check back and make sure your rank stays safe!</p>
+                </div>
+
+                <div class = "button">
+                    <div class="outer2" onclick="window.location.href='index.html'">
+                        <div class="inner">
+                           TAP TO REFRESH
+                        </div>
+                    </div>
+
+                    <div class="outer">
+                        <div class="inner">
+                            <a href = "https://app.3daimtrainer.com/quick-play">
+                                PRACTICE RANGE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
